@@ -1,16 +1,10 @@
-class Game {
-    name = 'Violin Charades'
-}
-const myGame = new Game()
+import Vue from 'vue'
+import App from './App.vue'
 
-// создаем параграф
-const p = document.createElement('p')
-p.textContent = `I like ${myGame.game}.`
+document.body.innerHTML = `<div id="app" style="z-index: -100; background-color: grey;"></div>`;
 
-// создаем элемент заголовка
-const heading = document.createElement('h1')
-heading.textContent = 'Как интересно!'
+new Vue({
+    el: '#app',
+    render: h => h(App)
+});
 
-// добавляем параграф и заголовок в DOM
-const root = document.body
-root.append(heading, p)

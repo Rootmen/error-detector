@@ -1,0 +1,12 @@
+{
+  "name": "error-detector",
+  "version": "1.0.0",
+  "description": "Error detector, with saving debugging information and transferring it to the server, and dashboard for viewing and analyzing it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC BY-NC-SA 4.0"
+}
